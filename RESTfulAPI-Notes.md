@@ -1,0 +1,16 @@
+- **REST API 🌐**: Standard for communication between computers over the internet. It involves sending requests and receiving responses.
+- **API 💻**: Stands for Application Programming Interface, facilitating communication between computers by defining how they should interact.
+- **REST 🔄**: Stands for REpresentational State Transfer, a set of rules for building web APIs since the early 2000s. It's like a universal language for computers!
+- **RESTful API 🚀**: Adheres to REST standards, examples include Twilio, Stripe, and Google Maps. They're like the superheroes of the internet world!
+- **Basics of REST 📝**: Organizes resources into unique URIs, uses HTTP verbs like GET, POST, PUT, DELETE. It's like sending letters to different addresses with specific requests, and the server responds accordingly.
+- **HTTP Verbs 📬**: GET (read), POST (create), PUT (update), DELETE (remove). Each verb tells the server what you want to do with the data, like giving instructions.
+- **CRUD 💡**: Stands for Create, Read, Update, Delete, representing different actions in REST. When creating multiple posts, it's important to consider data redundancy, which can take up server space. Deleting redundant posts programmatically may be necessary to manage server resources effectively.
+- **Response Format 📦**: HTTP status codes indicate success or failure, response body can contain data in JSON format. It's like getting a report card after sending a request, informing you of the outcome.
+- **Data Payload 📜**: The information sent with the request, formatted as JSON data, specifying what action needs to be performed. It's like the content of the letter you're sending.
+- **Idempotent vs Non-Idempotent Actions 🔄**: Idempotent actions can be retried safely, ensuring multiple identical requests have the same effect, while non-idempotent actions may have different outcomes with each request. It's like pressing the elevator button multiple times – it won't make it come faster!
+- **Promises 🤝**: A promise is returned when making asynchronous requests. It represents the eventual completion of an operation and enables handling of the response once it's received. It's like telling someone you'll call them back when you have the information they need.
+- **Stateless 🌌**: REST implementations don't store information about each other, each request/response cycle is independent. It's like having short-term memory, making communication efficient and scalable.
+- **Request Processing 🔄**: The server receives a request, processes it, and formats the result into a response. It's like placing an order at a restaurant, where the kitchen prepares your meal and serves it back to you.
+- **Pagination 📄**: Important for large data sets, commonly using "limit" and "offset" parameters. It's like flipping through pages in a book, finding what you need without getting overwhelmed.
+- **Versioning 🚀**: Crucial for backward compatibility, often achieved by prefixing the URI with the version number. It's like having different editions of a book to make sure everyone's on the same page!
+- **Effectiveness of REST 🎯**: Simple and widely used, though not suitable for all scenarios. Other options include GraphQL and gRPC. It's like the Swiss Army knife of web development – versatile and reliable.
